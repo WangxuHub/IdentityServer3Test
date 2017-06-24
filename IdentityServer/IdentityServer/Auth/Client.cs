@@ -30,7 +30,7 @@ namespace IdentityServer.Auth
                 },
 
                 AllowAccessToAllScopes = true,
-                AccessTokenType=AccessTokenType.Reference
+                AccessTokenType =AccessTokenType.Jwt
             }
         };
         }

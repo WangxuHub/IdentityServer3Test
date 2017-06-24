@@ -25,7 +25,9 @@ namespace ApiTest
                 //ClientId = "api",
                 //ClientSecret = "api-secret",
 
-                RequiredScopes = new[] { "api" }
+                RequiredScopes = new[] { "api" },
+                TokenProvider = new CustomVaildate.DyTokenProvider()
+                
             });
 
             // Wire Web API
