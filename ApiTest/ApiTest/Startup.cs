@@ -22,8 +22,8 @@ namespace ApiTest
                 Authority = "http://localhost:6779",
 
                 // For access to the introspection endpoint
-                //ClientId = "api",
-                //ClientSecret = "api-secret",
+                ClientId = "api",
+                ClientSecret = "api-secret",
 
                 RequiredScopes = new[] { "api" },
                 TokenProvider = new CustomVaildate.DyTokenProvider()
